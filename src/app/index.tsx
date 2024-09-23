@@ -1,4 +1,6 @@
-import { Text, View } from "react-native";
+import 'react-native-gesture-handler';
+
+import { Text, View, Image } from "react-native";
 
 export default function Index() {
   return (
@@ -10,6 +12,9 @@ export default function Index() {
         backgroundColor: '#008584' 
       }}
     >
+      <Image
+        source={require('../../assets/images/logo.png')}
+      />
       <Text>Teste</Text>
     </View>
   );
