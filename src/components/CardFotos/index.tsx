@@ -1,14 +1,13 @@
 import 'react-native-gesture-handler';
-import { Container } from './style';
+import { Container, Img } from './style';
 
 
 export default function CardFotos() {
   return (
     <>
-      <Container>
-        <img src="../../../assets/images/imageServico.jpeg" alt="foto" />
-      </Container>
+      <Img>
+        <img src="../../../assets/images/image.jpg" alt="foto" />
+      </Img>
     </>
-
-);
+  );
 }

@@ -1,34 +1,41 @@
 import 'react-native-gesture-handler';
-import { Label, Button, Agendamentos } from './style';
+import { Texto, Label, Button, Agendamentos } from './style';
 import { FaBluesky, FaTrash } from "react-icons/fa6";
 
 export default function ButtonPerfil() {
   return (
     <>
+    <Texto>
+    <h5>Para cancelar Agendamento clique em <FaTrash/> </h5>
+    </Texto>
     <Agendamentos>
-    <Label>Teste Teste</Label>
-    <Button>Cancelar Horário<FaTrash/></Button>
+    <Label>Beleza Pura</Label>
+    <Label>Corte de cabelo</Label>
+    <Label>R$50.0</Label>
+    <Button> <FaTrash/></Button>
     </Agendamentos>
 
     <Agendamentos>
-    <Label>Teste Teste</Label>
-    <Button>Cancelar Horário<FaTrash/></Button>
+    <Label>Beleza Pura</Label>
+    <Label>Corte de cabelo</Label>
+    <Label>R$50.0</Label>
+    <Button> <FaTrash/></Button>
     </Agendamentos>
 
     <Agendamentos>
-    <Label>Teste Teste</Label>
-    <Button>Cancelar Horário<FaTrash/></Button>
+    <Label>Beleza Pura</Label>
+    <Label>Corte de cabelo</Label>
+    <Label>R$50.0</Label>
+    <Button> <FaTrash/></Button>
     </Agendamentos>
 
     <Agendamentos>
-    <Label>Teste Teste</Label>
-    <Button>Cancelar Horário<FaTrash/></Button>
+    <Label>Beleza Pura</Label>
+    <Label>Corte de cabelo</Label>
+    <Label>R$50.0</Label>
+    <Button><FaTrash/> </Button>
     </Agendamentos>
-
-    <Agendamentos>
-    <Label>Teste Teste</Label>
-    <Button>Cancelar Horário<FaTrash/></Button>
-    </Agendamentos>
+    
     </>
 
 );

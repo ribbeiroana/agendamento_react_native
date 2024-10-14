@@ -8,12 +8,11 @@ import Menu from '../../components/Menu';
 export default function Funcionario() {
   return (
     <>
-      <Container>
+      {/* <Container> */}
         <CardFotos />
         <CardFuncionario/>
-      </Container>
-      {/* <Menu/> */}
-
+      {/* </Container> */}
+      <Menu/>
     </>
   );
 }
